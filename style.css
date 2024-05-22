@@ -3,6 +3,6 @@ Theme Name: People Like Us
 Template: twentytwentyfour
 */
 
-nav:hover {
-    color:blueviolet
+.wp-block-button.is-style-outline {
+    border-color: blueviolet;
 }
