@@ -3,8 +3,7 @@ Theme Name: People Like Us
 Template: twentytwentyfour
 */
 
-header{
-	background-color: blue;
+h1{
 	color: red;
-	border-color: yellow;
+	font-family: Arial, Helvetica, sans-serif;
 }
