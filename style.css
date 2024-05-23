@@ -5,8 +5,6 @@ Template: twentytwentyfour
 
 @import url("../twentytwentyfour/style.css");
 
-header{
-	background-color: blue;
+h1{
 	color: red;
-	border-color: yellow;
 }
