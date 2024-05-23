@@ -5,6 +5,6 @@ Template: twentytwentyfour
 
 @import url("../twentytwentyfour/style.css");
 
-h1{
+.has-text-align-center{
 	color: red;
 }
