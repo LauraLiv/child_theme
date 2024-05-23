@@ -2,3 +2,10 @@
 Theme Name: People Like Us
 Template: twentytwentyfour
 */
+
+.wp-block-button.is-style-outline
+	> .wp-block-button__link:not(.has-text-color, .has-background):hover {
+	background-color: blue;
+	color: red;
+	border-color: yellow;
+}
