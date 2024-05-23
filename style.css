@@ -3,6 +3,8 @@ Theme Name: People Like Us
 Template: twentytwentyfour
 */
 
+@import url("../twentytwentyfour/style.css");
+
 header{
 	background-color: blue;
 	color: red;
