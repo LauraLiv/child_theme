@@ -9,13 +9,16 @@
 
 /* site logo + titel */
 
+.wp-block-site-title a:hover, .wp-block-site-title a:hover{
+transform: scale(1.2);
+transition: transform 0.5s ease-in-out;
+}
+
 .wp-block-site-logo a:focus, 
 .wp-block-site-logo a:active, 
 .wp-block-site-title a:focus, 
 .wp-block-site-title a:active{
 outline: none;
-transform: scale(1.2);
-transition: transform 0.5s ease-in-out;
 }
 
 
@@ -46,9 +49,21 @@ color: #02427C;
 }
 
 
-/* nyhedsbrev */
+/* button */
 
 
+.wp-block-button, .wp-block-button__link {
+       background-color: #A1D1AB;
+    color: black;  
+    border: 0.5px solid #A1D1AB;
+    border-radius: 5px;
+}
+
+.wp-block-button:hover, .wp-block-button__link:hover {
+    background-color: #A1D1AB;
+    color: black;  
+    border: 0.5px solid black;
+    border-radius: 5px;}
 
 /* events */
 
@@ -71,3 +86,7 @@ color: #02427C;
 }
 
 /* footer */
+
+footer a:hover {
+    text-decoration: underline;
+}
