@@ -1,32 +1,53 @@
 /*
  Theme Name:   My Child Theme
  Template:     twentytwentyfour
- Version:      1.3
+ Version:      2.0
 */
+
+
+
+
+/* site logo + titel */
+
+.wp-block-site-logo a:focus, 
+.wp-block-site-logo a:active, 
+.wp-block-site-title a:focus, 
+.wp-block-site-title a:active{
+outline: none;
+transform: scale(1.2);
+transition: transform 0.5s ease-in-out;
+}
 
 
 /* links */
 
 .wp-block-navigation a:where(:not(.wp-element-button)):hover {
-  text-decoration: none;}
+text-decoration: none;}
 
+header .wp-block-navigation li:hover{
+color: #02427C;
+transform: scale(1.2);
+transition: transform 0.5s ease-in-out;
+}
+
+.wp-block-navigation a:where(:not(.wp-element-button)):focus,
+.wp-block-navigation a:where(:not(.wp-element-button)):active {
+outline: none;
+border: none;  
+text-decoration: none;
+color: #02427C;
+}
+
+
+/* forside */
+
+.home h1{
+  display: none
+}
 
 
 /* nyhedsbrev */
 
-#mc_embed_signup form {
-  text-align: center;
-}
-
-#mc_embed_signup .button{
-color: white;
-    background-color: #02427C;
-}
-
-#mc_embed_signup .button:hover {
-color: black;
-  background-color: #A1D1AB;
-}
 
 
 /* events */
@@ -48,3 +69,5 @@ color: black;
 .wpforms-container .wpforms-submit-container{
     text-align: center;
 }
+
+/* footer */
