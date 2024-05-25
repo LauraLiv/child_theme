@@ -79,10 +79,26 @@ color: #02427C;
 
 .wpforms-container{
     text-align: center;
+  
 }
 
-.wpforms-container .wpforms-submit-container{
-    text-align: center;
+#wpforms-220-field_1{
+    background-color: #E96840;
+  }
+
+
+ #wpforms-220-field_3{
+     background-color: #A1D1AB;}
+
+     
+     
+ #wpforms-220-field_6 {
+  background-color: #69CCF3;
+}
+
+#wpforms-submit-220:hover{
+    background-color: #E10819;
+    color: white;
 }
 
 /* footer */
