@@ -6,12 +6,11 @@
 
 
 
-
 /* site logo + titel */
 
 .wp-block-site-title a:hover, .wp-block-site-title a:hover{
 transform: scale(1.2);
-transition: transform 0.5s ease-in-out;
+transition: transform 0.3s ease-in-out;
 }
 
 .wp-block-site-logo a:focus, 
@@ -30,7 +29,7 @@ text-decoration: none;}
 header .wp-block-navigation li:hover{
 color: #02427C;
 transform: scale(1.2);
-transition: transform 0.5s ease-in-out;
+transition: transform 0.3s ease-in-out;
 }
 
 .wp-block-navigation a:where(:not(.wp-element-button)):focus,
@@ -53,7 +52,7 @@ color: #02427C;
 
 
 .wp-block-button, .wp-block-button__link {
-       background-color: #A1D1AB;
+    background-color: #A1D1AB;
     color: black;  
     border: 0.5px solid #A1D1AB;
     border-radius: 5px;
@@ -66,6 +65,7 @@ color: #02427C;
     border-radius: 5px;}
 
 /* events */
+
 
 
 /* event */
@@ -90,3 +90,8 @@ color: #02427C;
 footer a:hover {
     text-decoration: underline;
 }
+
+footer a:active, footer a:focus{
+outline: none;
+border: none;  
+text-decoration: none;}
