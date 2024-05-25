@@ -8,11 +8,6 @@
 
 /* site logo + titel */
 
-.wp-block-site-title a:hover, .wp-block-site-title a:hover{
-transform: scale(1.2);
-transition: transform 0.3s ease-in-out;
-}
-
 .wp-block-site-logo a:focus, 
 .wp-block-site-logo a:active, 
 .wp-block-site-title a:focus, 
@@ -24,10 +19,9 @@ outline: none;
 /* links */
 
 .wp-block-navigation a:where(:not(.wp-element-button)):hover {
-text-decoration: none;}
+text-decoration: underline;}
 
 header .wp-block-navigation li:hover{
-color: #02427C;
 transform: scale(1.2);
 transition: transform 0.3s ease-in-out;
 }
@@ -36,8 +30,7 @@ transition: transform 0.3s ease-in-out;
 .wp-block-navigation a:where(:not(.wp-element-button)):active {
 outline: none;
 border: none;  
-text-decoration: none;
-color: #02427C;
+text-decoration: underline;
 }
 
 
@@ -100,17 +93,17 @@ a:where(:not(.wp-element-button)):hover {
 #tribe-events-content ul.tribe-events-sub-nav li.tribe-events-nav-next {
   display: none;}
 
+
+
 /* book form*/
 
 .wpforms-container{
     text-align: center;
-  
 }
 
 #wpforms-220-field_1, #wpforms-217-field_1 {
     background-color: #E96840;
   }
-
 
  #wpforms-220-field_3, #wpforms-217-field_2{
      background-color: #A1D1AB;}
