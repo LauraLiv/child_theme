@@ -58,10 +58,6 @@ text-decoration: underline;
 
 /* events */
 
-.wp-block-post-title {
-    display: none;
-}
-
 .wp-block-button.wc-block-components-product-button {
   display: none;
 }
@@ -96,7 +92,6 @@ a:where(:not(.wp-element-button)):hover {
 
 /* book form*/
 
-
 .wpforms-container{
     text-align: center;
 }
@@ -109,9 +104,7 @@ a:where(:not(.wp-element-button)):hover {
  #wpforms-220-field_3, #wpforms-217-field_2{
      background-color: #A1D1AB;
     display: inline;
-}
-
-     
+} 
      
  #wpforms-220-field_6, #wpforms-217-field_4 {
   background-color: #69CCF3;
