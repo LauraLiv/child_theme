@@ -71,32 +71,48 @@ color: #02427C;
 /* event */
 
 
-/* book bord */
+/* single event */
+
+.tribe-events-single-event-title{
+  text-align: center;
+}
+
+.tribe-events-notices{
+    display: none;
+}
 
 
+.tribe-events-schedule__separator--date{
+    display: none;
+}
 
-/* book os */
+.tribe-events-schedule__separator--time{
+    color: black;
+}
+
+
+/* book */
 
 .wpforms-container{
     text-align: center;
   
 }
 
-#wpforms-220-field_1{
+#wpforms-220-field_1, #wpforms-217-field_1 {
     background-color: #E96840;
   }
 
 
- #wpforms-220-field_3{
+ #wpforms-220-field_3, #wpforms-217-field_2{
      background-color: #A1D1AB;}
 
      
      
- #wpforms-220-field_6 {
+ #wpforms-220-field_6, #wpforms-217-field_4 {
   background-color: #69CCF3;
 }
 
-#wpforms-submit-220:hover{
+#wpforms-submit-220:hover, #wpforms-submit-217:hover{
     background-color: #E10819;
     color: white;
 }
