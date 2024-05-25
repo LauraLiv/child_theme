@@ -66,9 +66,13 @@ color: #02427C;
 
 /* events */
 
+.wp-block-post-title {
+    display: none;
+}
 
-
-/* event */
+.wp-block-button.wc-block-components-product-button {
+  display: none;
+}
 
 
 /* single event */
@@ -81,6 +85,9 @@ color: #02427C;
     display: none;
 }
 
+a:where(:not(.wp-element-button)):hover {
+  text-decoration: underline;
+  outline: none;}
 
 .tribe-events-schedule__separator--date{
     display: none;
@@ -90,8 +97,10 @@ color: #02427C;
     color: black;
 }
 
+#tribe-events-content ul.tribe-events-sub-nav li.tribe-events-nav-next {
+  display: none;}
 
-/* book */
+/* book form*/
 
 .wpforms-container{
     text-align: center;
