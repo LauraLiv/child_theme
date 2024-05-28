@@ -1,7 +1,7 @@
 /*
  Theme Name:   My Child Theme
  Template:     twentytwentyfour
- Version:      2.4
+ Version:      2.5
 */
 
 
@@ -58,7 +58,6 @@ background-color: #02427C;
 
 
 /* events */
-
 
 .wc-block-components-product-image img:hover{
    transform: scale(1.05);
