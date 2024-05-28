@@ -59,12 +59,10 @@ background-color: #02427C;
 
 /* events */
 
-.wp-block-button.wc-block-components-product-button {
-  display: none;
-}
 
-.has-medium-font-size {
-  display: none;
+.wc-block-components-product-image img:hover{
+   transform: scale(1.05);
+transition: transform 0.5s ease-in-out; 
 }
 
 
