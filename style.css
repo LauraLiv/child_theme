@@ -18,26 +18,29 @@ outline: none;
 
 /* links */
 
-.wp-block-navigation a:where(:not(.wp-element-button)):hover {
-text-decoration: underline;}
-
-header .wp-block-navigation li:hover{
+header .wp-block-navigation a:hover{
 transform: scale(1.2);
 transition: transform 0.3s ease-in-out;
+ text-decoration: none;
 }
 
-.wp-block-navigation a:where(:not(.wp-element-button)):focus,
-.wp-block-navigation a:where(:not(.wp-element-button)):active {
+.wp-block-navigation a:focus,
+.wp-block-navigation a:active {
 outline: none;
 border: none;  
-text-decoration: underline;
+text-decoration: none;
 }
+
+.wp-block-navigation li:content{
+    color: blue;
+}
+
 
 
 /* forside */
 
-.home h1{
-  display: none
+.wp-block-post-title {
+ display: none;
 }
 
 
@@ -122,7 +125,9 @@ a:where(:not(.wp-element-button)):hover {
 /* footer */
 
 footer a:hover {
-    text-decoration: underline;
+text-decoration: none;
+transform: scale(1.2);
+transition: transform 0.3s ease-in-out;
 }
 
 footer a:active, footer a:focus{
