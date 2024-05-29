@@ -9,5 +9,16 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+
+function custom_woocommerce_product_query( $query ) {
+    if ( ! is_admin() && is_shop() && $query->is_main_query() ) {
+        $query->set( 'orderby', 'date' );
+        $query->set( 'order', 'ASC' ); // ASC for oldest to newest, DESC for newest to oldest
+    }
+}
+add_action( 'pre_get_posts', 'custom_woocommerce_product_query' );
+
 ?>
+
+
 
