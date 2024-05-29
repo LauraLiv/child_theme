@@ -8,6 +8,12 @@
 
 /* site logo + titel */
 
+.wp-block-site-logo a:hover, 
+.wp-block-site-title a:hover{
+transform: scale(1.2);
+transition: transform 0.3s ease-in-out;
+}
+
 .wp-block-site-logo a:focus, 
 .wp-block-site-logo a:active, 
 .wp-block-site-title a:focus, 
@@ -34,10 +40,13 @@ text-decoration: none;
 
 /* forside */
 
-.wp-block-post-title {
+.home .wp-block-post-title {
  display: none;
 }
 
+.pgcsimplygalleryblock-slider-item-inner.action-lightbox{
+    display:none;
+}
 
 /* button */
 
@@ -97,17 +106,14 @@ a:where(:not(.wp-element-button)):hover {
 }
 
 #wpforms-220-field_1, #wpforms-217-field_1 {
-
     display: inline;
   }
 
  #wpforms-220-field_3, #wpforms-217-field_2{
- 
     display: inline;
 } 
      
  #wpforms-220-field_6, #wpforms-217-field_4 {
- 
   display: inline;
 }
 
@@ -117,15 +123,23 @@ a:where(:not(.wp-element-button)):hover {
     transition: transform 0.3s ease-in-out;
 }
 
+div.wpforms-container-full .wpforms-form em.wpforms-error::before{
+    display: none
+}
+
+
 /* footer */
 
 footer a:hover {
 text-decoration: none;
-transform: scale(1.2);
-transition: transform 0.3s ease-in-out;
 }
 
 footer a:active, footer a:focus{
 outline: none;
 border: none;  
 text-decoration: none;}
+
+.wp-container-core-group-is-layout-13 :hover{
+transform: scale(1.02);
+transition: transform 0.3s ease-in-out;  
+}
