@@ -86,17 +86,8 @@ a:where(:not(.wp-element-button)):hover {
   text-decoration: underline;
   outline: none;}
 
-.tribe-events-schedule__separator--date{
-    display: none;
-}
-
-.tribe-events-schedule__separator--time{
-    color: black;
-}
-
 #tribe-events-content ul.tribe-events-sub-nav li.tribe-events-nav-next {
   display: none;}
-
 
 
 /* book form*/
@@ -139,7 +130,7 @@ outline: none;
 border: none;  
 text-decoration: none;}
 
-.wp-container-core-group-is-layout-13 :hover{
-transform: scale(1.02);
-transition: transform 0.3s ease-in-out;  
+.wp-container-core-group-is-layout-13 :hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
