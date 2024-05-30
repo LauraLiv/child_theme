@@ -26,6 +26,15 @@ function custom_woocommerce_category_query( $query ) {
 }
 add_action( 'pre_get_posts', 'custom_woocommerce_category_query' );
 
+
+function custom_woocommerce_category_query( $query ) {
+    if ( ! is_admin() && is_product_category( 'juni' ) && $query->is_main_query() ) {
+        $query->set( 'orderby', 'date' );
+        $query->set( 'order', 'ASC' ); // ASC for oldest to newest, DESC for newest to oldest
+    }
+}
+add_action( 'pre_get_posts', 'custom_woocommerce_category_query' );
+
 ?>
 
 
