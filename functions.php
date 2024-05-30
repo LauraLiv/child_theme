@@ -18,16 +18,6 @@ function custom_woocommerce_product_query( $query ) {
 }
 add_action( 'pre_get_posts', 'custom_woocommerce_product_query' );
 
-add_action('pre_get_posts', 'custom_category_product_query');
-
-function custom_category_product_query($query) {
-    // Check if it's not admin, and it's a main query, and it's a category page
-    if (!is_admin() && $query->is_main_query() && is_category()) {
-        $query->set('orderby', 'date');
-        $query->set('order', 'ASC'); // ASC for oldest to newest, DESC for newest to oldest
-    }
-}
-
 
 ?>
 
