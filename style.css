@@ -1,10 +1,14 @@
 /*
  Theme Name:   My Child Theme
  Template:     twentytwentyfour
- Version:      2.8
+ Version:      3.0
 */
 
+/* mobil nav */
 
+#modal-1{
+background-color: #EF91BD;
+}
 
 /* site logo + titel */
 
